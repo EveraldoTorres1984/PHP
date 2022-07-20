@@ -165,14 +165,39 @@ $dobrados = array_map(function ($item) {
 print_r($dobrados); //Permite fazer alterações dentro dos itens no array.
  */
 
-$numeros = [10, 20, 51, 80, 99];
+//$numeros = [10, 20, 51, 80, 5, 2];
 
 /* //array_pop($numeros); //Remove o último item do array
 //array_shift($numeros); //Remove o primeiro item do array
 print_r($numeros); */
 
-if (in_array(20, $numeros)) {
+/* if (in_array(20, $numeros)) {
     echo 'Existe';
 } else {
     echo 'Não Existe'; //Faz uma pesquisa dentro ao array para saber se o valor existe ou não.
-}
+} */
+
+/* sort($numeros); // Ordena os numeros em forma crescente(Muda a chave).
+ */
+/* rsort($numeros);// Ordena os numeros em forma decrescente(Muda a chave)
+ */
+
+/* asort($numeros); //Ordena em forma crescente e mantém a chave. */
+/* arsort($numeros); //Ordena na forma decrescente e mantém a chave */
+//print_r($numeros);
+
+/* $nomes = ['Everaldo', 'Torres', 'Nel'];
+
+$nome = implode(' ', $nomes); // Transforma um array em uma String.
+
+echo $nome;
+ */
+
+/* $data = '2022-07-20'; //padrão internacional de data(ano/mes/dia).
+$time = strtotime($data); // transforma a string em time(tempo)
+echo date('d/m/Y', $time);// formata a data para o padrão desejado */
+
+/* $data = '2022-07-20';
+echo date('d/m/Y', strtotime($data)); //maneira mais curta para o código acima. */
+
+
