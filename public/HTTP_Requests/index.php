@@ -1,6 +1,14 @@
 <?php
+session_start();
 require('header.php');
+
+if ($_SESSION['aviso']) {
+    echo $_SESSION['aviso'];
+    echo $_SESSION['aviso'] = '';
+}
 ?>
+
+<a href="apagar.php">Apagar Cookie</a>
 
 <form method="POST" action="recebedor.php">
 
@@ -8,6 +16,14 @@ require('header.php');
         Nome:
         <br />
         <input type="text" name="nome" />
+    </label>
+    <br>
+    <br>
+
+    <label>
+        E-mail:
+        <br />
+        <input type="email" name="email" />
     </label>
     <br>
     <br>
