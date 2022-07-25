@@ -98,6 +98,10 @@ echo "Soma das notas dos homens: " . $soma_m . '<br/>';
 echo "Média das notas dos homens: " . $media_m;
  */
 
-//Desconstruir Array
+//Desconstruir Array usando List
 
+$array = ['Everaldo', 37, 'suco','maracujá'];
 
+list($nome, $idade, $bebida,$sabor) = $array;
+
+echo $nome.' tem '. $idade.' anos e gosta de '. $bebida . ' de '.$sabor;
