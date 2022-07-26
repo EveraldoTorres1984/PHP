@@ -1,6 +1,10 @@
 <?php
 
-class Basico1
+interface MatematicaBasica{
+    public function somar($x, $y);
+}
+
+class Basico1 implements MatematicaBasica
 {
     public function somar($x, $y)
     {
@@ -8,7 +12,7 @@ class Basico1
     }
 }
 
-class Basico2
+class Basico2 implements MatematicaBasica
 {
     public function somar($x, $y)
     {
@@ -16,20 +20,22 @@ class Basico2
         for ($q = 0; $q < $y; $q++) {
             $res++;
         }
+        return $res;
     }
 }
 
 class Matematica{
     private $basico;
 
-    public function __construct()
+    public function __construct(MatematicaBasica $b)
     {
-        $this->basico = new Basico1();
+        $this->basico = $b;
     }
 
     public function somar($x, $y){
         return $this->basico->somar($x,$y);
     }
 }
-$mat = new Matematica();
-echo $mat->somar(15,5);
+
+$mat = new Matematica(new Basico1());
+echo $mat->somar(15,6);

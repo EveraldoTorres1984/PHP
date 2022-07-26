@@ -858,3 +858,215 @@ Stack trace:
 #1 {main}
   thrown in /var/www/html/public/php_OO/index.php on line 32" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
 2022/07/25 11:50:10 [error] 31#31: *54 directory index of "/var/www/html/public/" is forbidden, client: 10.24.24.170, server: representante.karina.test, request: "GET / HTTP/1.1", host: "10.24.24.188"
+2022/07/25 12:56:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/25 12:56:49 [notice] 31#31: gracefully shutting down
+2022/07/25 12:56:49 [notice] 32#32: gracefully shutting down
+2022/07/25 12:56:49 [notice] 33#33: gracefully shutting down
+2022/07/25 12:56:49 [notice] 36#36: gracefully shutting down
+2022/07/25 12:56:49 [notice] 34#34: gracefully shutting down
+2022/07/25 12:56:49 [notice] 35#35: gracefully shutting down
+2022/07/25 12:56:49 [notice] 31#31: exiting
+2022/07/25 12:56:49 [notice] 32#32: exiting
+2022/07/25 12:56:49 [notice] 33#33: exiting
+2022/07/25 12:56:49 [notice] 36#36: exiting
+2022/07/25 12:56:49 [notice] 34#34: exiting
+2022/07/25 12:56:49 [notice] 35#35: exiting
+2022/07/25 12:56:49 [notice] 33#33: exit
+2022/07/25 12:56:49 [notice] 31#31: exit
+2022/07/25 12:56:49 [notice] 32#32: exit
+2022/07/25 12:56:49 [notice] 34#34: exit
+2022/07/25 12:56:49 [notice] 35#35: exit
+2022/07/25 12:56:49 [notice] 36#36: exit
+2022/07/25 12:56:49 [notice] 37#37: gracefully shutting down
+2022/07/25 12:56:49 [notice] 37#37: exiting
+2022/07/25 12:56:49 [notice] 37#37: exit
+2022/07/25 12:56:49 [notice] 38#38: gracefully shutting down
+2022/07/25 12:56:49 [notice] 38#38: exiting
+2022/07/25 12:56:49 [notice] 38#38: exit
+2022/07/25 12:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/25 12:56:49 [notice] 1#1: worker process 31 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: worker process 32 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: worker process 35 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: worker process 37 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/25 12:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/25 12:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/25 12:56:49 [notice] 1#1: worker process 33 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: worker process 36 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/25 12:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/25 12:56:49 [notice] 1#1: worker process 34 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/25 12:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/25 12:56:49 [notice] 1#1: worker process 38 exited with code 0
+2022/07/25 12:56:49 [notice] 1#1: exit
+2022/07/26 08:00:00 [notice] 1#1: using the "epoll" event method
+2022/07/26 08:00:00 [notice] 1#1: nginx/1.20.0
+2022/07/26 08:00:00 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/26 08:00:00 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/26 08:00:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/26 08:00:00 [notice] 1#1: start worker processes
+2022/07/26 08:00:00 [notice] 1#1: start worker process 31
+2022/07/26 08:00:00 [notice] 1#1: start worker process 32
+2022/07/26 08:00:00 [notice] 1#1: start worker process 33
+2022/07/26 08:00:00 [notice] 1#1: start worker process 34
+2022/07/26 08:00:00 [notice] 1#1: start worker process 35
+2022/07/26 08:00:00 [notice] 1#1: start worker process 36
+2022/07/26 08:00:00 [notice] 1#1: start worker process 37
+2022/07/26 08:00:00 [notice] 1#1: start worker process 38
+2022/07/26 09:06:54 [error] 31#31: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Algo" not found in /var/www/html/public/php_OO/Auto_load/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Auto_load/index.php on line 15" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Auto_load/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 09:06:55 [error] 31#31: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Algo" not found in /var/www/html/public/php_OO/Auto_load/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Auto_load/index.php on line 15" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Auto_load/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 09:10:04 [error] 31#31: *20 FastCGI sent in stderr: "PHP message: PHP Warning:  require(autoloader.php): Failed to open stream: No such file or directory in /var/www/html/public/php_OO/Auto_load/index.php on line 3PHP message: PHP Fatal error:  Uncaught Error: Failed opening required 'autoloader.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/php_OO/Auto_load/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Auto_load/index.php on line 3" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Auto_load/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 09:26:43 [error] 31#31: *24 FastCGI sent in stderr: "PHP message: PHP Warning:  require(classes/Matematica.php): Failed to open stream: No such file or directory in /var/www/html/public/php_OO/Auto_load/autoloader.php on line 4PHP message: PHP Fatal error:  Uncaught Error: Failed opening required 'classes/Matematica.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/php_OO/Auto_load/autoloader.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Auto_load/index.php(5): {closure}()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Auto_load/autoloader.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Auto_load/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 09:53:58 [error] 31#31: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "matematica\Basica" not found in /var/www/html/public/php_OO/Auto_load/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Auto_load/index.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Auto_load/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 09:56:37 [error] 31#31: *33 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "matematica\Basica" not found in /var/www/html/public/php_OO/Auto_load/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Auto_load/index.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Auto_load/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:47:03 [error] 31#31: *41 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:47:17 [error] 31#31: *41 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:48:52 [error] 31#31: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:48:52 [error] 31#31: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:51:37 [error] 31#31: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:51:38 [error] 31#31: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:52:38 [error] 31#31: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:52:38 [error] 31#31: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:52:39 [error] 31#31: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:53:46 [error] 31#31: *53 FastCGI sent in stderr: "PHP message: PHP Warning:  require(vendor\autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/php_OO/Composer/index.php on line 3PHP message: PHP Fatal error:  Uncaught Error: Failed opening required 'vendor\autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/php_OO/Composer/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 3" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:54:12 [error] 31#31: *53 FastCGI sent in stderr: "PHP message: PHP Warning:  require(vendor\autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/php_OO/Composer/index.php on line 3PHP message: PHP Fatal error:  Uncaught Error: Failed opening required 'vendor\autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/php_OO/Composer/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 3" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:54:28 [error] 31#31: *53 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:55:51 [error] 31#31: *53 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:56:09 [error] 31#31: *53 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 10:56:09 [error] 31#31: *53 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:00:20 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:00:20 [error] 31#31: *61 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:01:45 [error] 31#31: *64 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:04:22 [error] 31#31: *66 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:08:45 [error] 31#31: *68 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:08:46 [error] 31#31: *68 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:08:46 [error] 31#31: *68 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:08:46 [error] 31#31: *68 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 11:25:31 [error] 31#31: *78 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class "Monolog\Level" not found in /var/www/html/public/php_OO/Composer/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/php_OO/Composer/index.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Composer/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:29:56 [error] 31#31: *107 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HYT00]: [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:33:14 [error] 31#31: *112 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HYT00]: [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:34:17 [error] 31#31: *112 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[IMSSP]: An invalid keyword 'dbname' was specified in the DSN string. in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:34:42 [error] 31#31: *112 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[IMSSP]: An invalid keyword 'dbname' was specified in the DSN string. in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:34:43 [error] 31#31: *112 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[IMSSP]: An invalid keyword 'dbname' was specified in the DSN string. in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:37:22 [error] 31#31: *117 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[IMSSP]: An invalid keyword 'server; dbname' was specified in the DSN string. in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:39:08 [error] 31#31: *119 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[IMSSP]: An invalid keyword 'server; dbname' was specified in the DSN string. in /var/www/html/public/php_OO/Banco_Dados/index.php:4
+Stack trace:
+#0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
+#1 {main}
+  thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
