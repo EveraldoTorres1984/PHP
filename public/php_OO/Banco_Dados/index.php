@@ -10,7 +10,7 @@ try {
     echo 'ERROR: ' . $e->getMessage();
 }
 
-//Fazendo uma consulta na tabela do banco de dados
+/* //Fazendo uma consulta na tabela do banco de dados
 $sql = $conn->query('SELECT * FROM tbl_teste');
 
 
@@ -20,4 +20,4 @@ echo "Total: ".$sql->rowCount();
 $dados = $sql->fetchAll(PDO::FETCH_ASSOC);
 
 echo '<pre>';
-print_r($dados);
+print_r($dados); */

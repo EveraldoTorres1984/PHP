@@ -1070,3 +1070,85 @@ Stack trace:
 #0 /var/www/html/public/php_OO/Banco_Dados/index.php(4): PDO->__construct()
 #1 {main}
   thrown in /var/www/html/public/php_OO/Banco_Dados/index.php on line 4" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /php_OO/Banco_Dados/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/07/26 12:57:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/26 12:57:07 [notice] 31#31: gracefully shutting down
+2022/07/26 12:57:07 [notice] 33#33: gracefully shutting down
+2022/07/26 12:57:07 [notice] 31#31: exiting
+2022/07/26 12:57:07 [notice] 35#35: gracefully shutting down
+2022/07/26 12:57:07 [notice] 34#34: gracefully shutting down
+2022/07/26 12:57:07 [notice] 36#36: gracefully shutting down
+2022/07/26 12:57:07 [notice] 32#32: gracefully shutting down
+2022/07/26 12:57:07 [notice] 33#33: exiting
+2022/07/26 12:57:07 [notice] 38#38: gracefully shutting down
+2022/07/26 12:57:07 [notice] 35#35: exiting
+2022/07/26 12:57:07 [notice] 34#34: exiting
+2022/07/26 12:57:07 [notice] 36#36: exiting
+2022/07/26 12:57:07 [notice] 32#32: exiting
+2022/07/26 12:57:07 [notice] 38#38: exiting
+2022/07/26 12:57:07 [notice] 31#31: exit
+2022/07/26 12:57:07 [notice] 35#35: exit
+2022/07/26 12:57:07 [notice] 33#33: exit
+2022/07/26 12:57:07 [notice] 36#36: exit
+2022/07/26 12:57:07 [notice] 34#34: exit
+2022/07/26 12:57:07 [notice] 32#32: exit
+2022/07/26 12:57:07 [notice] 38#38: exit
+2022/07/26 12:57:07 [notice] 37#37: gracefully shutting down
+2022/07/26 12:57:07 [notice] 37#37: exiting
+2022/07/26 12:57:07 [notice] 37#37: exit
+2022/07/26 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/26 12:57:07 [notice] 1#1: worker process 31 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/26 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/26 12:57:07 [notice] 1#1: worker process 33 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: worker process 34 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: worker process 32 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: worker process 35 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: worker process 37 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/26 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/26 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/26 12:57:07 [notice] 1#1: worker process 36 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/26 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/26 12:57:07 [notice] 1#1: worker process 38 exited with code 0
+2022/07/26 12:57:07 [notice] 1#1: exit
+2022/07/27 08:11:12 [notice] 1#1: using the "epoll" event method
+2022/07/27 08:11:12 [notice] 1#1: nginx/1.20.0
+2022/07/27 08:11:12 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/27 08:11:12 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/27 08:11:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/27 08:11:12 [notice] 1#1: start worker processes
+2022/07/27 08:11:12 [notice] 1#1: start worker process 31
+2022/07/27 08:11:12 [notice] 1#1: start worker process 32
+2022/07/27 08:11:12 [notice] 1#1: start worker process 33
+2022/07/27 08:11:12 [notice] 1#1: start worker process 34
+2022/07/27 08:11:12 [notice] 1#1: start worker process 35
+2022/07/27 08:11:12 [notice] 1#1: start worker process 36
+2022/07/27 08:11:12 [notice] 1#1: start worker process 37
+2022/07/27 08:11:12 [notice] 1#1: start worker process 38
+2022/07/27 09:55:00 [error] 31#31: *54 directory index of "/var/www/html/public/" is forbidden, client: 10.24.24.170, server: representante.karina.test, request: "GET / HTTP/1.1", host: "10.24.24.188"
+2022/07/27 10:04:22 [error] 31#31: *74 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/CRUD/adicionar.php"
+2022/07/27 10:07:05 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/CRUD/adicionar.php"
+2022/07/27 10:07:45 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/CRUD/adicionar.php"
+2022/07/27 10:08:06 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/CRUD/adicionar.php"
+2022/07/27 10:08:06 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Undefined variable $nome in /var/www/html/public/CRUD/index.php on line 26PHP message: PHP Warning:  Trying to access array offset on value of type null in /var/www/html/public/CRUD/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/CRUD/adicionar.php"
+2022/07/27 10:10:07 [error] 31#31: *76 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined variable $sql in /var/www/html/public/CRUD/index.php on line 9PHP message: PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /var/www/html/public/CRUD/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/CRUD/index.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/CRUD/adicionar.php"
+2022/07/27 12:44:13 [error] 31#31: *118 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot use object of type Usuario as array in /var/www/html/public/CRUD_DAO/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/CRUD_DAO/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD_DAO/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost"
+2022/07/27 12:45:13 [error] 31#31: *118 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot use object of type Usuario as array in /var/www/html/public/CRUD_DAO/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/CRUD_DAO/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD_DAO/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost"
+2022/07/27 12:46:15 [error] 31#31: *118 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot use object of type Usuario as array in /var/www/html/public/CRUD_DAO/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/CRUD_DAO/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD_DAO/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost"
+2022/07/27 12:47:28 [error] 31#31: *122 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Cannot use object of type Usuario as array in /var/www/html/public/CRUD_DAO/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/CRUD_DAO/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD_DAO/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost"
