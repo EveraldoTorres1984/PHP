@@ -1,14 +1,16 @@
 <?php
 require 'config.php';
+require 'dao/UsuarioDaoSqlServer.php';
+
+$usuarioDao = new UsuarioDaoSqlServer($conn);
 
 
 $id = filter_input(INPUT_GET, 'id');
 
 if ($id) {
+
+    $usuarioDao->delete($id);   
     
-    $sql = $conn->prepare("DELETE FROM tbl_teste WHERE id = :id");
-    $sql->bindValue(':id', $id);
-    $sql->execute();
 } 
 
 header("Location: index.php");
