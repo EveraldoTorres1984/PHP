@@ -1229,3 +1229,147 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /var/www/html/public/CRUD_DAO/editar.php on line 23" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /CRUD_DAO/editar.php?id=6 HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost", referrer: "http://localhost/CRUD_DAO/index.php"
+2022/07/28 12:57:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/28 12:57:07 [notice] 31#31: gracefully shutting down
+2022/07/28 12:57:07 [notice] 34#34: gracefully shutting down
+2022/07/28 12:57:07 [notice] 37#37: gracefully shutting down
+2022/07/28 12:57:07 [notice] 35#35: gracefully shutting down
+2022/07/28 12:57:07 [notice] 38#38: gracefully shutting down
+2022/07/28 12:57:07 [notice] 32#32: gracefully shutting down
+2022/07/28 12:57:07 [notice] 31#31: exiting
+2022/07/28 12:57:07 [notice] 34#34: exiting
+2022/07/28 12:57:07 [notice] 37#37: exiting
+2022/07/28 12:57:07 [notice] 35#35: exiting
+2022/07/28 12:57:07 [notice] 38#38: exiting
+2022/07/28 12:57:07 [notice] 32#32: exiting
+2022/07/28 12:57:07 [notice] 31#31: exit
+2022/07/28 12:57:07 [notice] 34#34: exit
+2022/07/28 12:57:07 [notice] 38#38: exit
+2022/07/28 12:57:07 [notice] 37#37: exit
+2022/07/28 12:57:07 [notice] 35#35: exit
+2022/07/28 12:57:07 [notice] 33#33: gracefully shutting down
+2022/07/28 12:57:07 [notice] 33#33: exiting
+2022/07/28 12:57:07 [notice] 33#33: exit
+2022/07/28 12:57:07 [notice] 36#36: gracefully shutting down
+2022/07/28 12:57:07 [notice] 36#36: exiting
+2022/07/28 12:57:07 [notice] 36#36: exit
+2022/07/28 12:57:07 [notice] 32#32: exit
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/07/28 12:57:07 [notice] 1#1: worker process 38 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: worker process 31 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/28 12:57:07 [notice] 1#1: worker process 32 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: worker process 37 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/07/28 12:57:07 [notice] 1#1: worker process 36 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/28 12:57:07 [notice] 1#1: worker process 33 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: worker process 35 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/28 12:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/28 12:57:07 [notice] 1#1: worker process 34 exited with code 0
+2022/07/28 12:57:07 [notice] 1#1: exit
+2022/07/29 08:06:08 [notice] 1#1: using the "epoll" event method
+2022/07/29 08:06:08 [notice] 1#1: nginx/1.20.0
+2022/07/29 08:06:08 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/29 08:06:08 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/29 08:06:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/29 08:06:08 [notice] 1#1: start worker processes
+2022/07/29 08:06:08 [notice] 1#1: start worker process 31
+2022/07/29 08:06:08 [notice] 1#1: start worker process 32
+2022/07/29 08:06:08 [notice] 1#1: start worker process 33
+2022/07/29 08:06:08 [notice] 1#1: start worker process 34
+2022/07/29 08:06:08 [notice] 1#1: start worker process 35
+2022/07/29 08:06:08 [notice] 1#1: start worker process 36
+2022/07/29 08:06:08 [notice] 1#1: start worker process 37
+2022/07/29 08:06:08 [notice] 1#1: start worker process 38
+2022/07/29 08:22:44 [error] 31#31: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:23:08 [error] 31#31: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:25:29 [error] 31#31: *8 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:26:18 [error] 31#31: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:31:53 [error] 31#31: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:32:00 [error] 31#31: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:32:14 [error] 31#31: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:36:57 [error] 31#31: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:40:05 [error] 31#31: *21 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:40:37 [error] 31#31: *21 FastCGI sent in stderr: "PHP message: PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /var/www/html/public/Manipulacao_imagensGD/index.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:40:58 [error] 31#31: *21 FastCGI sent in stderr: "PHP message: PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /var/www/html/public/Manipulacao_imagensGD/index.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:42:57 [error] 31#31: *25 FastCGI sent in stderr: "PHP message: PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:43:06 [error] 31#31: *25 FastCGI sent in stderr: "PHP message: PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 08:43:33 [error] 31#31: *25 FastCGI sent in stderr: "PHP message: PHP Warning:  imagepng(): gd-png error: compression level must be 0 through 9 in /var/www/html/public/Manipulacao_imagensGD/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:20:57 [error] 31#31: *36 FastCGI sent in stderr: "PHP message: PHP Warning:  getimagesize(paisagem.jpg): Failed to open stream: No such file or directory in /var/www/html/public/Manipulacao_imagensGD/index.php on line 24PHP message: PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /var/www/html/public/Manipulacao_imagensGD/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:30:04 [error] 31#31: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:30:20 [error] 31#31: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:31:23 [error] 31#31: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:31:23 [error] 31#31: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:31:34 [error] 31#31: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:49:10 [error] 31#31: *45 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:49:11 [error] 31#31: *45 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 41" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:50:50 [error] 31#31: *48 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 46" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:52:01 [error] 31#31: *50 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 46" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2022/07/29 09:52:27 [error] 31#31: *50 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function imagejpeg() in /var/www/html/public/Manipulacao_imagensGD/index.php:46
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/Manipulacao_imagensGD/index.php on line 46" while reading response header from upstream, client: 172.18.0.1, server: representante.karina.test, request: "GET /Manipulacao_imagensGD/index.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
